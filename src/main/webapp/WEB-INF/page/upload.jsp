@@ -4,9 +4,8 @@
 	<head>
 	</head>
 	<body>
-		<form action="testFileUpload.mvc" method="post"
+		<form action="upload2.do" method="post"
 			enctype="multipart/form-data">
-			<input type="text" name="username">
 			<input type="file" name="file">
 			<input type="submit" value="开始上传">
 		</form>
